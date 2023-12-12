@@ -1,0 +1,181 @@
+.topcont{
+    background-color: rgb(250, 211, 159);
+    height: 95vh;
+    color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlecont{
+    height: 300px;
+    width: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 500px;
+    background-color:rgb(93, 190, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-sign-in-button {
+    cursor: pointer;
+    transition: background-color .3s, box-shadow .3s;
+        
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+}
+
+.google-sign-in-button:hover {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+}
+
+.google-sign-in-button:active {
+    background-color: #eeeeee;
+}
+
+.google-sign-in-button:active {
+    outline: none;
+        box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+}
+
+.google-sign-in-button:disabled {
+    filter: grayscale(100%);
+    background-color: #ebebeb;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    cursor: not-allowed;
+}
+
+
+/* Navbar */
+
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 200px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+  }
+  
+
+
+/* Form CSS */
+
+.userCont{
+    color: #333;
+    background-color: #c8dafc;
+    padding: 40px;
+    border-radius: 25px;
+    
+    flex-wrap: wrap;
+    
+
+}
+input{
+    color: #121212;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+   
+}
+input:hover{
+    background-color: #b4b4b4;
+}
+text{
+    width: 90px;
+}
+.userContform{
+    display: flex;
+    flex-direction: row;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+/* Add this CSS to your stylesheet */
+
+button[type="submit"] {
+    background-color: #4caf50; /* Green color, change as needed */
+    color: #fff; /* Text color, change as needed */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green color on hover, change as needed */
+  }
+  .formdiv{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+.btnsubmit{
+    margin-top: 20px;
+}

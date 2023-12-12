@@ -1,0 +1,38 @@
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -210px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    color: white;
+  }
+ 
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 10px;
+    right: -2px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  li:hover {
+    background-color: #444;
+  }
+  

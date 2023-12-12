@@ -1,0 +1,157 @@
+
+.profile-top-body-div{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: #dedede;
+  height: 100%;
+  background-size: cover;
+}
+.mid-main-body-profile{
+  width: 50%;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 1px solid rgb(186, 186, 186);
+}
+/* cover Photo */
+
+.cover-photo-profile-card{
+  background-image: url("https://cdn.wallpapersafari.com/44/35/5kDNQH.jpg");
+  background-size: cover;
+  height: 200px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* profile pic */
+.Profilecard-profile-pic-div {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(91, 235, 165);
+  overflow: hidden;
+ 
+}
+.profile-div-top-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 130px;
+  left:400px ;
+}
+
+.profile-pic-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-username-span{
+  font-weight: 500;
+}
+
+.profileContent{
+  background-color: #ffeded;
+  display: flex;
+  justify-content: space-around;
+}
+.profile-card-user-details{
+  margin-top: 100px;
+  background-color: rgb(255, 169, 169);
+  color: #0a0a0a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 15px;
+
+
+}
+.profile-card-user-details-span1{
+  display: flex;
+  flex-direction: column;
+}
+.profile-card-user-details-span2{
+  display: flex;
+  flex-direction: column;
+ 
+}
+span{
+  font-weight: 400;
+}
+
+.color{
+  background-color: brown;
+}
+.About-class-top{
+  width: 50%;
+  background-color: #ffffff;
+  height: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgb(186, 186, 186);
+}
+
+
+
+/* PostForm.css (CSS Styles) */
+
+.post-form-container {
+ 
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+textarea {
+  
+  box-sizing: border-box;
+}
+
+
+
+.photo-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (max-width:500px) {
+  .profile-div-top-card{
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left:90px;
+  }
+  .mid-main-body-profile{
+    width:80%
+  }
+  .About-class-top{
+    width:80%
+  }
+}
